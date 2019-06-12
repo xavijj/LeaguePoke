@@ -2,6 +2,12 @@ body{
     background-image: url(../img/paisaje.png) no-repeat center center fixed;
     background-size: cover;
 }
+.palabra{
+    text-decoration: none;
+}
+.orden{
+    left: 56555%
+}
 .padding-fondo{
 	background-image: url("../img/ni.jpg");
 	max-height: 1000px
@@ -10,7 +16,7 @@ body{
 }
 
 .main-section{
-    margin:0 auto;
+    margin:500 auto;
     margin-top:25%;
     padding: 0;
 }
