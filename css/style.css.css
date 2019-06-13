@@ -1,11 +1,12 @@
 body{
 	margin: 0;
 	padding: 0;
-	background: url(../img/poke2.jpg) no-repeat center ;
+	background: url(../img/fo3.jpg) no-repeat center ;
 	background-size: cover;
 	font-family: sans-serif;
 	height: 100vh;
 }
+	
 
 .Login-Box {
 	width: 320px;
@@ -79,4 +80,8 @@ body{
 
 .Login-Box a:hover {
 	color: #fff;
+}
+.avatar{
+	right: 10px;
+	left: 100px
 }
