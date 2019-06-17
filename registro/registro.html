@@ -6,19 +6,30 @@
 	<link rel="stylesheet" href="css/style.css">
  </head>
  <body class="fondo">
-	<h1>POKEMON REGISTRO</h1>
-	<form action="registrar.php" method="post" class="form-register">
-		<h2 class="form__titulo">CREA UNA CUENTA</h2>
-		<div class="contenedor-imputs">
-		<input type="text" name="nombres" placeholder="Nombres"class="input-48"required>	
-		<input type="text" name="apellidos" placeholder="Apellidos"class="input-48"required>
-		<input type="email" name="correo" placeholder="Correo" class="input-100"required>	
-		<input type="text" name="usuario" placeholder="Usuario"class="input-48"required>		
-		<input type="password" name="clave" placeholder="Contraseña"class="input-48"required>	
-		<input type="text" name="telefono" placeholder="Teléfono" class="input-100"required>	
-		<input type="submit" value="Registrar" class="btn-enviar"required>
-		<p class="form__link">¿Ya tienes un cuenta?<a href="../newpokedex/index2.html">Ingresa aqui</a></p>
-		</div>	
-	</form>
-  </body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1 class="h1">Registrate Entrenador</h1>
+				<div class="contenedor">
+  					<img src="../registro/img/PrOak.png" class="PI" height="500">
+  					<div class="texto-encima centrado">
+  						<form action="registrar.php" method="post" class="form-register">
+							<h2 class="form__titulo">CREA UNA CUENTA</h2>
+							<div class="contenedor-imputs">
+								<input type="text" name="nombres" placeholder="Nombre"class="input-48"required>	
+								<input type="text" name="apellidos" placeholder="Apellido"class="input-48"required>
+								<input type="email" name="correo" placeholder="Correo" class="input-100"required>	
+								<input type="text" name="usuario" placeholder="Usuario"class="input-48"required>		
+								<input type="password" name="clave" placeholder="Contraseña"class="input-48"required>	
+								<input type="text" name="telefono" placeholder="Teléfono" class="input-100"required>	
+								<div></a><input type="submit" value="Registrar" class="btn-enviar"required><a href="../inicio de sesion/index.html"></div>
+								<p class="form__link">¿Ya tienes un cuenta?<a href="../newpokedex/index2.html">Ingresa aqui</a></p>
+							</div>	
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
 </html>
